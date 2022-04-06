@@ -11,5 +11,6 @@ public class RMCharacter {
 
     private Integer id;
     private String name;
+    private String status;
 
 }

@@ -20,4 +20,8 @@ public class RickAndMortyService {
     public List<RMCharacter> getAllCharacters() {
         return rickAndMortyApiService.retrieveAllCharacters();
     }
+
+    public List<RMCharacter> getAllAliveCharacters() {
+        return rickAndMortyApiService.retrieveAllAliveCharacters();
+    }
 }
